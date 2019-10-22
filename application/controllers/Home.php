@@ -6,6 +6,8 @@ class Home extends CI_Controller {
 	public function index()
 	{
 		$nombre = "Alberto";
-		$this->load->view('home/index', $nombre);
+		$datos['headers'] = $this->load->view('template/header','', TRUE);
+        $datos['footers'] = $this->load->view('template/footer','', TRUE);
+        $this->load->view('home/index', $datos);
 	}
 }
