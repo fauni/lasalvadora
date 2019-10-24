@@ -1,6 +1,6 @@
 <?= $headers ?>
 <!-- CONTENIDO ****************************************************************-->
-
+<!-- AQUI EN ADELANTE COLOCAMOS EL CONTENIDO -->
 
 <section class="home-3-slideshow mv-wrap">
         <div id="home-3-slideshow" class="mv-caroufredsel">
